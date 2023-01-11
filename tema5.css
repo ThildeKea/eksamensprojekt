@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: 'Sofia Sans', sans-serif;
 }
 .navbar {
 	background-color: #83ae44;
@@ -257,6 +257,15 @@
 	width: 80%;
 }
 
+#main_img1{
+	height: 100%;
+	width: 100%;
+}
+
+#main_img2{
+	height: 80%;
+	width: 80%;
+}
 /* Mobile Responsive */
 
 @media screen and (max-width: 768px) {

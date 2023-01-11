@@ -374,9 +374,16 @@
 }
 
 .services_card:nth-child(4) {
-	background-image: url("stylet.webp"); /* her skal det sidste tema være */
+	background-image: url("/"); /* her skal det sidste tema være */
 }
 
+.services_card:nth-child(5) {
+	background-image: url("/");
+}
+
+.services_card:nth-child(6) {
+	background-image: url("/");
+}
 
 .services_card h2 {
 	text-align: center;

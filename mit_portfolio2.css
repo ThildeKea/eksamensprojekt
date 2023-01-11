@@ -123,6 +123,7 @@
 		transition: all 0.3s ease-in-out;
 		background: #fff;
 	}
+ 
 
 	.navbar_item {
 		width: 100%;
@@ -206,6 +207,7 @@
 	font-size: 2rem;
 	font-weight: 700;
 	color: #fff;
+    
 }
 
 .main_btn {
@@ -226,6 +228,8 @@
 	z-index: 2;
 	color: #ff0844;
 	text-decoration: none;
+   
+
 }
 
 .main_btn:after {
@@ -265,8 +269,8 @@
 		grid-template-columns: auto;
 		align-items: center;
 		justify-self: center;
-		width: 100%;
-		margin: 0 auto;
+		width: auto;
+		margin: 50%;
 		height: 90vh;
 	}
 
@@ -314,7 +318,7 @@
 /* Services Section CSS */
 
 .services {
-	background: #83ae44;
+	background: #131313;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -358,25 +362,31 @@
 	height: 525px;
 	width: 400px;
 	border-radius: 4px;
-	background-image: url("smh3.webp");
+	background-image: url("/tema3.png");
 	background-size: cover;
 	position: relative;
-	color: #ff0844;
-	font-size: large;
+	color: #fff;
 }
 
 .services_card:nth-child(2) {
-	background-image: url("smh4.webp");
+	background-image: url("/tema");
 }
 
 .services_card:nth-child(3) {
-	background-image: url("smh5.webp");
+	background-image: url("/billede3.jpg");
 }
 
 .services_card:nth-child(4) {
-	background-image: url("stylet.webp"); /* her skal det sidste tema være */
+	background-image: url("/billede4.jpg");
 }
 
+.services_card:nth-child(5) {
+	background-image: url("/billede5.jpg");
+}
+
+.services_card:nth-child(6) {
+	background-image: url("/billede6.jpg");
+}
 
 .services_card h2 {
 	text-align: center;
